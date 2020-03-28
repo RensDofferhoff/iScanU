@@ -1,0 +1,13 @@
+Compile Capstone
+Set target architecture subfolder in ARCH_DIR within the Makefile
+Set the fetch and analysis stages you want in src/main.cpp and run make
+
+Use at own risk
+
+
+-j #scanner to specify the number of scanner units to use
+-p to use ptrace method
+-m to use memcage method
+-a #cores to set processor affinity for each scanner unit 
+-b # to specify start instruction
+-e # to specify end instruction 

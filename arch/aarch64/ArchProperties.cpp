@@ -1,0 +1,4 @@
+#include "ArchProperties.h"
+#include "Blacklist.h"
+
+Blacklist blacklist = { {3558867072, 0b0}, {0b11010101000100000000000000000000, 0b00000000001011111111111111111111}};
